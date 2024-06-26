@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.2.4"
+ruby "3.2.3"
 
 gem "rails",           "7.0.4.3"
 gem "sassc-rails",     "2.1.2"
@@ -37,4 +37,4 @@ group :test do
 end
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
-#gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+# gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
